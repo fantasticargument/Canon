@@ -1,0 +1,367 @@
+﻿var resource = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		id:		"canon_logo",
+		value:	"<img src=\"../frame_images/header_canon_logo.gif\" title=\"Canon\" />"
+	},{
+		id:		"guide_name",
+		value:	"e-Manual"
+	},{
+		id:		"title",
+		value:	"e-Manual for LBP6000/LBP6000B"
+	},{
+		id:		"home",
+		value:	"Topp"
+	},{
+		id:		"contents",
+		value:	"Innhold"
+	},{
+		id:		"help",
+		value:	"Hjelp"
+	},{
+		id:		"product_logo",
+		value:	"<img src=\"../frame_images/body_product_logo.gif\" title=\"LBP6000/LBP6000B\" />"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"copy_right",
+		value:	"Copyright &copy; 2010 ved Canon Inc. Med enerett."
+	},{
+		id:		"disclaimer",
+		value:	"Ansvarsfraskrivelse"
+	},{
+		id:		"copy_rights",
+		value:	"Copyright"
+	},{
+		id:		"trade_marks",
+		value:	"Varemerker"
+	},{
+		id:		"third_party",
+		value:	"Tredjepartsprogramvare"
+	},{
+		id:		"contact",
+		value:	"Adresser"
+	},{
+		id:		"pub_number",
+		value:	"USRM1-7175 (01)"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"print_page",
+		value:	"Dette emnet"
+	},{
+		id:		"print_all",
+		value:	"Denne kategorien"
+	},{
+		id:		"print_button",
+		value:	"Skriv ut"
+	},{
+		id:		"category",
+		value:	"Kategori"
+	},{
+		id:		"open_next_sibling",
+		value:	"Open details"
+	},{
+		id:		"close_next_sibling",
+		value:	"Close details"
+	},{
+		id:		"open_all",
+		value:	"Show all details"
+	},{
+		id:		"close_all",
+		value:	"Hide all details"
+	},{
+		id:		"close",
+		value:	"Lukk"
+	},{
+		id:		"close_toc_all",
+		value:	"Skjul alle"
+	},{
+		id:		"open_toc_all",
+		value:	"Utvid alle"
+	// --------------------------------------------------------------------------------------------
+	// CONTENTS
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"contents_link_prev",
+		value:	"Foregående"
+	},{
+		id:		"contents_link_next",
+		value:	"Neste"
+	},{
+		id:		"contents_link_top",
+		value:	"Gå til toppen av siden"
+	// --------------------------------------------------------------------------------------------
+	// SEARCH
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"select_categories",
+		value:	"Vis søkeområde"
+	},{
+		id:		"hide_categories",
+		value:	"Skjul søkeområde"
+	},{
+		id:		"categories_from_all",
+		value:	"Søk alle kategorier"
+	},{
+		id:		"search_result_contidions",
+		value:	"Stikkord"
+	},{
+		id:		"search_prev",
+		value:	"« Foreg."
+	},{
+		id:		"search_next",
+		value:	"Neste »"
+	},{
+		id:		"search_found",
+		value:	"punkt(er)"
+	},{
+		id:		"categories_from_below",
+		value:	"Søk fra kategoriene nedenfor:"
+	},{
+		id:		"search_scope",
+		value:	"Søkeområde: "
+	},{
+		id:		"search_scope_all",
+		value:	"alle"
+	},{
+		id:		"search_scope_category",
+		value:	" kategori(er)"
+	},{
+		id:		"enter_search_keyword",
+		value:	"Tast stikkord her"
+	// --------------------------------------------------------------------------------------------
+	// GROUP
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"pr_ope",
+		value:	"Håndtere skriveren"
+	},{
+		id:		"pr",
+		value:	"Skriver ut"
+	},{
+		id:		"setting",
+		value:	"Konfigurering og administrasjon av skriveren"
+	},{
+		id:		"que",
+		value:	"Ofte stilte spørsmål"
+	},{
+		id:		"inst",
+		value:	"Installasjon"
+	},{
+		id:		"other",
+		value:	"Annet"
+	// --------------------------------------------------------------------------------------------
+	// CATEGORY
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"before",
+		value:	"Før du starter"
+	},{
+		id:		"safety",
+		value:	"Viktige sikkerhetsinstruksjoner"
+	},{
+		id:		"about_pr",
+		value:	"Om denne skriveren"
+	},{
+		id:		"maint",
+		value:	"Vedlikehold"
+	},{
+		id:		"pr_basic",
+		value:	"Grunnleggende skriveroperasjoner"
+	},{
+		id:		"pr_paper",
+		value:	"Skrive ut på forskjellige typer papir"
+	},{
+		id:		"pr_func",
+		value:	"Nyttige utskriftsfunksjoner"
+	},{
+		id:		"pr_server",
+		value:	"Bruke skriveren i utskriftsservermiljøet"
+	},{
+		id:		"ans_1",
+		value:	"Hvordan skifte tonerkassett"
+	},{
+		id:		"ans_3",
+		value:	"En indikator p&aring; skriverenheten er p&aring;/blinker."
+	},{
+		id:		"ans_4",
+		value:	"Jeg &oslash;nsker &aring; vite hvordan jeg skal rengj&oslash;re fikseringsrullen."
+	},{
+		id:		"ans_5",
+		value:	"L&oslash;sninger for n&aring;r papir sitter fast"
+	},{
+		id:		"ans_6",
+		value:	"Jeg &oslash;nsker &aring; vite hvordan jeg legger i papir."
+	},{
+		id:		"ans_7",
+		value:	"&Aring; avbryte en jobb"
+	},{
+		id:		"ans_8",
+		value:	"L&oslash;sninger for n&aring;r utskriftsresultater er d&aring;rlige"
+	},{
+		id:		"trob",
+		value:	"Feilsøking"
+	},{
+		id:		"setup_guide",
+		value:	"Skriverinstallasjon"
+	},{
+		id:		"dri_inst",
+		value:	"Driverinstallasjon"
+	}
+];
+var link = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		link_name:"home",
+		link_target:"_self",
+		link_href:"../frame_htmls/home.html"
+	},{
+		link_name:"contents",
+		link_target:"_self",
+		link_href:"../frame_htmls/contents.html"
+	},{
+		link_name:"help",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"before",
+		link_target:"_self"
+	},{
+		link_name:"safety",
+		link_target:"_self"
+	},{
+		link_name:"about_pr",
+		link_target:"_self"
+	},{
+		link_name:"maint",
+		link_target:"_self"
+	},{
+		link_name:"pr_basic",
+		link_target:"_self"
+	},{
+		link_name:"pr_paper",
+		link_target:"_self"
+	},{
+		link_name:"pr_func",
+		link_target:"_self"
+	},{
+		link_name:"pr_server",
+		link_target:"_self"
+	},{
+		link_name:"ans_1",
+		link_target:"_self"
+	},{
+		link_name:"ans_3",
+		link_target:"_self"
+	},{
+		link_name:"ans_4",
+		link_target:"_self"
+	},{
+		link_name:"ans_5",
+		link_target:"_self"
+	},{
+		link_name:"ans_6",
+		link_target:"_self"
+	},{
+		link_name:"ans_7",
+		link_target:"_self"
+	},{
+		link_name:"ans_8",
+		link_target:"_self"
+	},{
+		link_name:"trob",
+		link_target:"_self"
+	},{
+		link_name:"setup_guide",
+		link_target:"_self"
+	},{
+		link_name:"dri_inst",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"disclaimer",
+		link_target:"canon_sub_window",
+		link_resource:"disclaimer",
+		link_href:""
+	},{
+		link_name:"copy_rights",
+		link_target:"canon_sub_window",
+		link_resource:"copy_rights",
+		link_href:""
+	},{
+		link_name:"trade_marks",
+		link_target:"canon_sub_window",
+		link_resource:"trade_marks",
+		link_href:""
+	},{
+		link_name:"third_party",
+		link_target:"canon_sub_window",
+		link_resource:"third_party",
+		link_href:""
+	},{
+		link_name:"contact",
+		link_target:"canon_sub_window",
+		link_resource:"contact",
+		link_href:""
+	}
+];
+var header = "home,|,contents,|,help,|,_SEARCH_";
+var footer = "disclaimer,|,copy_rights,|,trade_marks,|,third_party,|,contact,|,_PUBNO_";
+var constant = [
+	{
+		search_window_width:		300,
+		search_show_around:			50,
+		search_show_result_count:	10,
+		search_page_max_range:		5
+	}
+];
+var cover = [
+	{
+		cover_name:"before",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"safety",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"about_pr",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"maint",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"setup_guide",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"dri_inst",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"pr_basic",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"pr_paper",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"pr_func",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"pr_server",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"trob",
+		cover_title:"Øverst i kategorien"
+	},{
+		cover_name:"oth",
+		cover_title:"Øverst i kategorien"
+	}
+];

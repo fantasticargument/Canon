@@ -1,0 +1,225 @@
+*{
+	margin:					0;
+	padding:				0;
+	font-size:				100%;
+	text-decoration:		None;
+	letter-spacing:			0;
+}
+html{
+	height:					100%;
+	overflow:				Hidden;
+	border:					0;
+}
+body{
+	margin:					0px;
+	height:					100%;
+	cursor:					Default;
+}
+/* --------------------------------------------------------------------------------------------- */
+#id_header{
+	background:				#FFFFFF Url("../frame_images/hdr_bg.gif") Repeat-x 0 Bottom;
+	width:					100%;
+	height:					42px;
+	position:				Absolute;
+	overflow:				Auto;
+}
+#id_header table{
+	width:					100%;
+	height:					36px;
+	font-size:				0px;
+}
+#id_header table th{
+	text-align:				Left;
+	padding-left:			10px;
+	vertical-align:			Middle;
+	white-space:			Nowrap;
+}
+#id_header table th span{
+	vertical-align:			Middle;
+	font:					Bold 8pt "Tahoma";
+	color:					#4687B4;
+	margin-right:			20px;
+	vertical-align:			Bottom;
+}
+#id_header table th img{
+	vertical-align:			Bottom;
+	cursor:					Pointer;
+}
+#id_header table td{
+	text-align:				Right;
+	vertical-align:			Middle;
+	padding-right:			10px;
+	white-space:			Nowrap;
+}
+#id_header #id_search{
+	background:				Url("../frame_images/src_bg_out.gif") No-Repeat Left 0;
+	_background:				Url("../frame_images/src_bg_out.gif") No-Repeat Left 0 Fixed;
+	width:					190px;
+	height:					15px;
+	font:					Normal 8pt "Tahoma";
+	vertical-align:			Middle;
+	padding:				3px;
+	border:					0px;
+}
+#id_header #id_search_button{
+	background:				Url("../frame_images/src_btn.gif") No-Repeat;
+	width:					32px;
+	height:					21px;
+	font:					Normal 8pt "Tahoma";
+	cursor:					Hand;
+	vertical-align:			Middle;
+	margin-left:			-7px;
+	cursor:					Pointer;
+	border:					0px;
+}
+#id_header a.self{
+	padding-right:			0px;
+	margin-right:			10px;
+	font:					Normal 8pt "Tahoma";
+	color:					#0000FF;
+}
+#id_header a.self:hover{
+	text-decoration:		Underline;
+	cursor:					Pointer;
+}
+#id_header a.sub_window{
+	padding-right:			15px;
+	margin-right:			10px;
+	font:					Normal 8pt "Tahoma";
+	color:					#0000FF;
+	background:				Transparent Url("../frame_images/hdr_a_sub_wnd.gif") No-repeat Right 50%;
+}
+#id_header a.sub_window:hover{
+	text-decoration:		Underline;
+	cursor:					Pointer;
+}
+#id_header img.header_vr{
+	padding-right:			5px;
+}
+#id_header table td span{
+	padding-right:			0px;
+	margin-right:			10px;
+	font:					Normal 8pt "Tahoma";
+	color:					#808080;
+}
+/* --------------------------------------------------------------------------------------------- */
+#id_body{
+	position:				Absolute;
+	top:					43px;
+	overflow:				Auto;
+	background:				#F3F8FA;
+	border-bottom:			Solid 1px #808080;
+}
+#id_body button{
+	width:					126px;
+	height:					110px;
+	margin:					0px 0px 5px 5px;
+	cursor:					Pointer;
+	border:					None;
+	background:				#F3F8FA;
+	font:					Normal 8pt "Tahoma";
+	color:					#808080;
+	vertical-align:			Middle;
+}
+#id_body #id_res_product_logo{
+	margin:					15px 5px;
+}
+#id_body div.group{
+	background:				#A5C6DC;
+	padding:				2px 5px;
+	_padding:				5px;
+	margin:					5px;
+	border:					Solid 1px #797978;
+	-webkit-border-radius:	2px;
+}
+#id_body div.group span{
+	border-left:			Solid 3px #797978;
+	font:					Normal 8pt "Tahoma";
+	color:					#000000;
+	padding-left:			5px;
+}
+#id_body table.home{
+	width:					100%;
+	table-layout:			Fixed;
+}
+#id_body table.home td{
+	vertical-align:			Top;
+	width:					Auto;
+	padding-bottom:			10px;
+}
+#id_body table.link{
+	margin-left:			15px;
+}
+#id_body table.link th{
+	padding:				0px 5px 0px 15px;
+	vertical-align:			Top;
+}
+#id_body table.link th img{
+	vertical-align:			Top;
+	margin-top:				3px;
+}
+#id_body table.link td{
+	vertical-align:			Top;
+	padding-bottom:			0px;
+}
+#id_body a{
+	font:					Normal 8pt "Tahoma";
+	color:					#0000FF;
+	vertical-align:			Top;
+}
+#id_body a:hover{
+	text-decoration:		Underline;
+	cursor:					Pointer;
+}
+/* --------------------------------------------------------------------------------------------- */
+#id_footer{
+	background:				#EFEFEF;
+	position:				Absolute;
+	height:					20px;
+	border-top:				Solid 1px #FFFFFF;
+	font:					Normal 8pt "Tahoma";
+	text-align:				Right;
+	padding-top:			5px;
+	font-size:				0px;
+	overflow:				Auto;
+}
+#id_footer span{
+	padding-right:			5px;
+	font:					Normal 8pt "Tahoma";
+	color:					#808080;
+}
+#id_footer a.self{
+	padding-right:			0px;
+	margin-right:			5px;
+	font:					Normal 8pt "Tahoma";
+	color:					#0000FF;
+}
+#id_footer a.self:hover{
+	text-decoration:		Underline;
+	cursor:					Pointer;
+}
+#id_footer a.sub_window{
+	padding-right:			15px;
+	margin-right:			10px;
+	font:					Normal 8pt "Tahoma";
+	color:					#0000FF;
+	background:				Transparent Url("../frame_images/ftr_a_sub_wnd.gif") No-repeat Right 50%;
+}
+#id_footer a.sub_window:hover{
+	text-decoration:		Underline;
+	cursor:					Pointer;
+}
+#id_footer img{
+	padding-right:			5px;
+}
+#id_footer table{
+	width:					100%;
+}
+#id_footer table th{
+	text-align:				Left;
+	padding-left:			5px;
+	white-space:			Nowrap;
+}
+#id_footer table td{
+	white-space:			Nowrap;
+}

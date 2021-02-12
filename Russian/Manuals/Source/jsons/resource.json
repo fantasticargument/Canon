@@ -1,0 +1,367 @@
+﻿var resource = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		id:		"canon_logo",
+		value:	"<img src=\"../frame_images/header_canon_logo.gif\" title=\"Canon\" />"
+	},{
+		id:		"guide_name",
+		value:	"Электронное руководство"
+	},{
+		id:		"title",
+		value:	"LBP6000/LBP6000B Электронное руководство"
+	},{
+		id:		"home",
+		value:	"В начало"
+	},{
+		id:		"contents",
+		value:	"Содержание"
+	},{
+		id:		"help",
+		value:	"Справка"
+	},{
+		id:		"product_logo",
+		value:	"<img src=\"../frame_images/body_product_logo.gif\" title=\"LBP6000/LBP6000B\" />"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"copy_right",
+		value:	"Copyright &copy; 2010 г., Canon Inc. Все права защищены."
+	},{
+		id:		"disclaimer",
+		value:	"Отказ от обязательств"
+	},{
+		id:		"copy_rights",
+		value:	"Copyright"
+	},{
+		id:		"trade_marks",
+		value:	"Торговые марки"
+	},{
+		id:		"third_party",
+		value:	"Программное обеспечение сторонних производителей"
+	},{
+		id:		"contact",
+		value:	"Адреса представительств"
+	},{
+		id:		"pub_number",
+		value:	"USRM1-7172 (01)"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"print_page",
+		value:	"этот раздел"
+	},{
+		id:		"print_all",
+		value:	"эта категория"
+	},{
+		id:		"print_button",
+		value:	"Печать"
+	},{
+		id:		"category",
+		value:	"Категория"
+	},{
+		id:		"open_next_sibling",
+		value:	"Open details"
+	},{
+		id:		"close_next_sibling",
+		value:	"Close details"
+	},{
+		id:		"open_all",
+		value:	"Show all details"
+	},{
+		id:		"close_all",
+		value:	"Hide all details"
+	},{
+		id:		"close",
+		value:	"Закрыть"
+	},{
+		id:		"close_toc_all",
+		value:	"Свернуть все"
+	},{
+		id:		"open_toc_all",
+		value:	"Развернуть все"
+	// --------------------------------------------------------------------------------------------
+	// CONTENTS
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"contents_link_prev",
+		value:	"Назад"
+	},{
+		id:		"contents_link_next",
+		value:	"Далее"
+	},{
+		id:		"contents_link_top",
+		value:	"В начало страницы"
+	// --------------------------------------------------------------------------------------------
+	// SEARCH
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"select_categories",
+		value:	"Показать область поиска"
+	},{
+		id:		"hide_categories",
+		value:	"Скрыть область поиска"
+	},{
+		id:		"categories_from_all",
+		value:	"Поиск по всем категориям"
+	},{
+		id:		"search_result_contidions",
+		value:	"Ключевое слово (слова):"
+	},{
+		id:		"search_prev",
+		value:	"« Назад"
+	},{
+		id:		"search_next",
+		value:	"Далее »"
+	},{
+		id:		"search_found",
+		value:	"результат(ов)"
+	},{
+		id:		"categories_from_below",
+		value:	"Поиск по следующим категориям:"
+	},{
+		id:		"search_scope",
+		value:	"Область поиска: "
+	},{
+		id:		"search_scope_all",
+		value:	"все"
+	},{
+		id:		"search_scope_category",
+		value:	" категория (категории)"
+	},{
+		id:		"enter_search_keyword",
+		value:	"Введите ключевое слово (слова)"
+	// --------------------------------------------------------------------------------------------
+	// GROUP
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"pr_ope",
+		value:	"Правила обращения с принтером"
+	},{
+		id:		"pr",
+		value:	"Печать"
+	},{
+		id:		"setting",
+		value:	"Управление принтером и его настройка"
+	},{
+		id:		"que",
+		value:	"Часто задаваемые вопросы"
+	},{
+		id:		"inst",
+		value:	"Установка"
+	},{
+		id:		"other",
+		value:	"Другое"
+	// --------------------------------------------------------------------------------------------
+	// CATEGORY
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"before",
+		value:	"Перед началом работы"
+	},{
+		id:		"safety",
+		value:	"Важные указания по технике безопасности"
+	},{
+		id:		"about_pr",
+		value:	"О данном принтере"
+	},{
+		id:		"maint",
+		value:	"Обслуживание"
+	},{
+		id:		"pr_basic",
+		value:	"Основные операции принтера"
+	},{
+		id:		"pr_paper",
+		value:	"Печать на различных типах бумаги"
+	},{
+		id:		"pr_func",
+		value:	"Полезные функции печати"
+	},{
+		id:		"pr_server",
+		value:	"Использование принтера в среде сервера печати"
+	},{
+		id:		"ans_1",
+		value:	"Как заменить картридж с тонером"
+	},{
+		id:		"ans_3",
+		value:	"Индикатор на блоке принтера включен или мигает."
+	},{
+		id:		"ans_4",
+		value:	"Как очистить термозакрепляющий валик."
+	},{
+		id:		"ans_5",
+		value:	"Способы устранения замятия бумаги"
+	},{
+		id:		"ans_6",
+		value:	"Как загрузить бумагу."
+	},{
+		id:		"ans_7",
+		value:	"Отмена задания"
+	},{
+		id:		"ans_8",
+		value:	"Способы улучшения качества печати"
+	},{
+		id:		"trob",
+		value:	"Устранение неполадок"
+	},{
+		id:		"setup_guide",
+		value:	"Установка принтера"
+	},{
+		id:		"dri_inst",
+		value:	"Установка драйвера"
+	}
+];
+var link = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		link_name:"home",
+		link_target:"_self",
+		link_href:"../frame_htmls/home.html"
+	},{
+		link_name:"contents",
+		link_target:"_self",
+		link_href:"../frame_htmls/contents.html"
+	},{
+		link_name:"help",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"before",
+		link_target:"_self"
+	},{
+		link_name:"safety",
+		link_target:"_self"
+	},{
+		link_name:"about_pr",
+		link_target:"_self"
+	},{
+		link_name:"maint",
+		link_target:"_self"
+	},{
+		link_name:"pr_basic",
+		link_target:"_self"
+	},{
+		link_name:"pr_paper",
+		link_target:"_self"
+	},{
+		link_name:"pr_func",
+		link_target:"_self"
+	},{
+		link_name:"pr_server",
+		link_target:"_self"
+	},{
+		link_name:"ans_1",
+		link_target:"_self"
+	},{
+		link_name:"ans_3",
+		link_target:"_self"
+	},{
+		link_name:"ans_4",
+		link_target:"_self"
+	},{
+		link_name:"ans_5",
+		link_target:"_self"
+	},{
+		link_name:"ans_6",
+		link_target:"_self"
+	},{
+		link_name:"ans_7",
+		link_target:"_self"
+	},{
+		link_name:"ans_8",
+		link_target:"_self"
+	},{
+		link_name:"trob",
+		link_target:"_self"
+	},{
+		link_name:"setup_guide",
+		link_target:"_self"
+	},{
+		link_name:"dri_inst",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"disclaimer",
+		link_target:"canon_sub_window",
+		link_resource:"disclaimer",
+		link_href:""
+	},{
+		link_name:"copy_rights",
+		link_target:"canon_sub_window",
+		link_resource:"copy_rights",
+		link_href:""
+	},{
+		link_name:"trade_marks",
+		link_target:"canon_sub_window",
+		link_resource:"trade_marks",
+		link_href:""
+	},{
+		link_name:"third_party",
+		link_target:"canon_sub_window",
+		link_resource:"third_party",
+		link_href:""
+	},{
+		link_name:"contact",
+		link_target:"canon_sub_window",
+		link_resource:"contact",
+		link_href:""
+	}
+];
+var header = "home,|,contents,|,help,|,_SEARCH_";
+var footer = "disclaimer,|,copy_rights,|,trade_marks,|,third_party,|,contact,|,_PUBNO_";
+var constant = [
+	{
+		search_window_width:		300,
+		search_show_around:			50,
+		search_show_result_count:	10,
+		search_page_max_range:		5
+	}
+];
+var cover = [
+	{
+		cover_name:"before",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"safety",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"about_pr",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"maint",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"setup_guide",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"dri_inst",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"pr_basic",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"pr_paper",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"pr_func",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"pr_server",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"trob",
+		cover_title:"Начало категорий"
+	},{
+		cover_name:"oth",
+		cover_title:"Начало категорий"
+	}
+];

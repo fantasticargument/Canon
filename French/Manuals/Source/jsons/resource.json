@@ -1,0 +1,367 @@
+﻿var resource = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		id:		"canon_logo",
+		value:	"<img src=\"../frame_images/header_canon_logo.gif\" title=\"Canon\" />"
+	},{
+		id:		"guide_name",
+		value:	"Manuel électronique"
+	},{
+		id:		"title",
+		value:	"LBP6000/LBP6000B Manuel électronique"
+	},{
+		id:		"home",
+		value:	"Haut"
+	},{
+		id:		"contents",
+		value:	"Sommaire"
+	},{
+		id:		"help",
+		value:	"Aide"
+	},{
+		id:		"product_logo",
+		value:	"<img src=\"../frame_images/body_product_logo.gif\" title=\"LBP6000/LBP6000B\" />"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"copy_right",
+		value:	"Copyright &copy; 2010 by Canon Inc. Tous droits réservés."
+	},{
+		id:		"disclaimer",
+		value:	"Renonciation"
+	},{
+		id:		"copy_rights",
+		value:	"Copyright"
+	},{
+		id:		"trade_marks",
+		value:	"Marques"
+	},{
+		id:		"third_party",
+		value:	"Logiciels tiers"
+	},{
+		id:		"contact",
+		value:	"Adresses"
+	},{
+		id:		"pub_number",
+		value:	"USRM1-7168 (01)"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"print_page",
+		value:	"Cette rubrique"
+	},{
+		id:		"print_all",
+		value:	"Cette catégorie"
+	},{
+		id:		"print_button",
+		value:	"Imprimer"
+	},{
+		id:		"category",
+		value:	"Catégorie"
+	},{
+		id:		"open_next_sibling",
+		value:	"Open details"
+	},{
+		id:		"close_next_sibling",
+		value:	"Close details"
+	},{
+		id:		"open_all",
+		value:	"Show all details"
+	},{
+		id:		"close_all",
+		value:	"Hide all details"
+	},{
+		id:		"close",
+		value:	"Fermer"
+	},{
+		id:		"close_toc_all",
+		value:	"Tout réduire"
+	},{
+		id:		"open_toc_all",
+		value:	"Tout développer"
+	// --------------------------------------------------------------------------------------------
+	// CONTENTS
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"contents_link_prev",
+		value:	"Précédent"
+	},{
+		id:		"contents_link_next",
+		value:	"Suivant"
+	},{
+		id:		"contents_link_top",
+		value:	"Retour en haut de la page"
+	// --------------------------------------------------------------------------------------------
+	// SEARCH
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"select_categories",
+		value:	"Afficher la recherche"
+	},{
+		id:		"hide_categories",
+		value:	"Masquer la recherche"
+	},{
+		id:		"categories_from_all",
+		value:	"Rechercher parmi les catégories"
+	},{
+		id:		"search_result_contidions",
+		value:	"Mot(s) clé(s) :"
+	},{
+		id:		"search_prev",
+		value:	"« Préc"
+	},{
+		id:		"search_next",
+		value:	"Suiv »"
+	},{
+		id:		"search_found",
+		value:	"rubrique(s)"
+	},{
+		id:		"categories_from_below",
+		value:	"Rechercher parmi les catégories suivantes :"
+	},{
+		id:		"search_scope",
+		value:	"Etendue de recherche : "
+	},{
+		id:		"search_scope_all",
+		value:	"tout"
+	},{
+		id:		"search_scope_category",
+		value:	" catégorie(s)"
+	},{
+		id:		"enter_search_keyword",
+		value:	"Saisir mot(s) clé(s) ici"
+	// --------------------------------------------------------------------------------------------
+	// GROUP
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"pr_ope",
+		value:	"Manipulation de l'imprimante"
+	},{
+		id:		"pr",
+		value:	"Impression"
+	},{
+		id:		"setting",
+		value:	"Configuration et gestion de l'imprimante"
+	},{
+		id:		"que",
+		value:	"Questions fréquentes"
+	},{
+		id:		"inst",
+		value:	"Installation"
+	},{
+		id:		"other",
+		value:	"Autres"
+	// --------------------------------------------------------------------------------------------
+	// CATEGORY
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"before",
+		value:	"Avant de commencer"
+	},{
+		id:		"safety",
+		value:	"Consignes de sécurité importantes"
+	},{
+		id:		"about_pr",
+		value:	"A propos de cette imprimante"
+	},{
+		id:		"maint",
+		value:	"Maintenance"
+	},{
+		id:		"pr_basic",
+		value:	"Fonctionnement de base de l'imprimante"
+	},{
+		id:		"pr_paper",
+		value:	"Impression sur divers types de papier"
+	},{
+		id:		"pr_func",
+		value:	"Fonctions d'impression utiles"
+	},{
+		id:		"pr_server",
+		value:	"Utilisation de l'imprimante dans un environnement de serveur d'impression"
+	},{
+		id:		"ans_1",
+		value:	"Comment changer la cartouche d'encre"
+	},{
+		id:		"ans_3",
+		value:	"L'un des témoins de l'imprimante s'allume/clignote."
+	},{
+		id:		"ans_4",
+		value:	"Je veux savoir comment nettoyer le rouleau de fixation."
+	},{
+		id:		"ans_5",
+		value:	"Solutions à appliquer en cas de bourrage papier"
+	},{
+		id:		"ans_6",
+		value:	"Je veux savoir comment charger du papier."
+	},{
+		id:		"ans_7",
+		value:	"Pour annuler un travail"
+	},{
+		id:		"ans_8",
+		value:	"Solutions à appliquer si les résultats d'impression sont médiocres"
+	},{
+		id:		"trob",
+		value:	"Dépannage"
+	},{
+		id:		"setup_guide",
+		value:	"Installation de l'imprimante"
+	},{
+		id:		"dri_inst",
+		value:	"Installation du pilote"
+	}
+];
+var link = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		link_name:"home",
+		link_target:"_self",
+		link_href:"../frame_htmls/home.html"
+	},{
+		link_name:"contents",
+		link_target:"_self",
+		link_href:"../frame_htmls/contents.html"
+	},{
+		link_name:"help",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"before",
+		link_target:"_self"
+	},{
+		link_name:"safety",
+		link_target:"_self"
+	},{
+		link_name:"about_pr",
+		link_target:"_self"
+	},{
+		link_name:"maint",
+		link_target:"_self"
+	},{
+		link_name:"pr_basic",
+		link_target:"_self"
+	},{
+		link_name:"pr_paper",
+		link_target:"_self"
+	},{
+		link_name:"pr_func",
+		link_target:"_self"
+	},{
+		link_name:"pr_server",
+		link_target:"_self"
+	},{
+		link_name:"ans_1",
+		link_target:"_self"
+	},{
+		link_name:"ans_3",
+		link_target:"_self"
+	},{
+		link_name:"ans_4",
+		link_target:"_self"
+	},{
+		link_name:"ans_5",
+		link_target:"_self"
+	},{
+		link_name:"ans_6",
+		link_target:"_self"
+	},{
+		link_name:"ans_7",
+		link_target:"_self"
+	},{
+		link_name:"ans_8",
+		link_target:"_self"
+	},{
+		link_name:"trob",
+		link_target:"_self"
+	},{
+		link_name:"setup_guide",
+		link_target:"_self"
+	},{
+		link_name:"dri_inst",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"disclaimer",
+		link_target:"canon_sub_window",
+		link_resource:"disclaimer",
+		link_href:""
+	},{
+		link_name:"copy_rights",
+		link_target:"canon_sub_window",
+		link_resource:"copy_rights",
+		link_href:""
+	},{
+		link_name:"trade_marks",
+		link_target:"canon_sub_window",
+		link_resource:"trade_marks",
+		link_href:""
+	},{
+		link_name:"third_party",
+		link_target:"canon_sub_window",
+		link_resource:"third_party",
+		link_href:""
+	},{
+		link_name:"contact",
+		link_target:"canon_sub_window",
+		link_resource:"contact",
+		link_href:""
+	}
+];
+var header = "home,|,contents,|,help,|,_SEARCH_";
+var footer = "disclaimer,|,copy_rights,|,trade_marks,|,third_party,|,contact,|,_PUBNO_";
+var constant = [
+	{
+		search_window_width:		300,
+		search_show_around:			50,
+		search_show_result_count:	10,
+		search_page_max_range:		5
+	}
+];
+var cover = [
+	{
+		cover_name:"before",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"safety",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"about_pr",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"maint",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"setup_guide",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"dri_inst",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"pr_basic",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"pr_paper",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"pr_func",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"pr_server",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"trob",
+		cover_title:"Début de la catégorie"
+	},{
+		cover_name:"oth",
+		cover_title:"Début de la catégorie"
+	}
+];

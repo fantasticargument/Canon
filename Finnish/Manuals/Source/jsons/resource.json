@@ -1,0 +1,367 @@
+﻿var resource = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		id:		"canon_logo",
+		value:	"<img src=\"../frame_images/header_canon_logo.gif\" title=\"Canon\" />"
+	},{
+		id:		"guide_name",
+		value:	"Sähköinen opas"
+	},{
+		id:		"title",
+		value:	"LBP6000/LBP6000B sähköinen opas"
+	},{
+		id:		"home",
+		value:	"Alkuun"
+	},{
+		id:		"contents",
+		value:	"Sisällys"
+	},{
+		id:		"help",
+		value:	"Ohje"
+	},{
+		id:		"product_logo",
+		value:	"<img src=\"../frame_images/body_product_logo.gif\" title=\"LBP6000/LBP6000B\" />"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"copy_right",
+		value:	"Copyright &copy; 2010 Canon Inc. Kaikki oikeudet pidätetään."
+	},{
+		id:		"disclaimer",
+		value:	"Vastuuvapauslauseke"
+	},{
+		id:		"copy_rights",
+		value:	"Copyright"
+	},{
+		id:		"trade_marks",
+		value:	"Tavaramerkit"
+	},{
+		id:		"third_party",
+		value:	"Kolmannen osapuolen ohjelmisto"
+	},{
+		id:		"contact",
+		value:	"Toimistojen sijainnit "
+	},{
+		id:		"pub_number",
+		value:	"USRM1-7177 (01)"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"print_page",
+		value:	"tämä aihe"
+	},{
+		id:		"print_all",
+		value:	"tämä luokka"
+	},{
+		id:		"print_button",
+		value:	"Tulostus"
+	},{
+		id:		"category",
+		value:	"Luokka"
+	},{
+		id:		"open_next_sibling",
+		value:	"Open details"
+	},{
+		id:		"close_next_sibling",
+		value:	"Close details"
+	},{
+		id:		"open_all",
+		value:	"Show all details"
+	},{
+		id:		"close_all",
+		value:	"Hide all details"
+	},{
+		id:		"close",
+		value:	"Sulje"
+	},{
+		id:		"close_toc_all",
+		value:	"Tiivistä kaikki"
+	},{
+		id:		"open_toc_all",
+		value:	"Laajenna kaikki"
+	// --------------------------------------------------------------------------------------------
+	// CONTENTS
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"contents_link_prev",
+		value:	"Edellinen"
+	},{
+		id:		"contents_link_next",
+		value:	"Seuraava"
+	},{
+		id:		"contents_link_top",
+		value:	"Siirry sivun yläreunaan"
+	// --------------------------------------------------------------------------------------------
+	// SEARCH
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"select_categories",
+		value:	"Näytä etsintäalue"
+	},{
+		id:		"hide_categories",
+		value:	"Piilota etsintäalue"
+	},{
+		id:		"categories_from_all",
+		value:	"Etsi kaikista luokista"
+	},{
+		id:		"search_result_contidions",
+		value:	"Avainsana(t):"
+	},{
+		id:		"search_prev",
+		value:	"« Edellinen"
+	},{
+		id:		"search_next",
+		value:	"Seuraava »"
+	},{
+		id:		"search_found",
+		value:	"kohta"
+	},{
+		id:		"categories_from_below",
+		value:	"Etsi alla olevista luokista:"
+	},{
+		id:		"search_scope",
+		value:	"Etsintäalue: "
+	},{
+		id:		"search_scope_all",
+		value:	"kaikki"
+	},{
+		id:		"search_scope_category",
+		value:	" luokka/luokat"
+	},{
+		id:		"enter_search_keyword",
+		value:	"Kirjoita avainsana(t) tähän:"
+	// --------------------------------------------------------------------------------------------
+	// GROUP
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"pr_ope",
+		value:	"Tulostimen käsitteleminen"
+	},{
+		id:		"pr",
+		value:	"Tulostus"
+	},{
+		id:		"setting",
+		value:	"Tulostimen hallinta ja määritys"
+	},{
+		id:		"que",
+		value:	"Usein kysytyt kysymykset"
+	},{
+		id:		"inst",
+		value:	"Asentaminen"
+	},{
+		id:		"other",
+		value:	"Muut"
+	// --------------------------------------------------------------------------------------------
+	// CATEGORY
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"before",
+		value:	"Ennen aloitusta"
+	},{
+		id:		"safety",
+		value:	"Tärkeitä turvaohjeita"
+	},{
+		id:		"about_pr",
+		value:	"Tietoja tästä tulostimesta"
+	},{
+		id:		"maint",
+		value:	"Huolto"
+	},{
+		id:		"pr_basic",
+		value:	"Tulostimen perustoiminnot"
+	},{
+		id:		"pr_paper",
+		value:	"Tulostus erityyppisille papereille"
+	},{
+		id:		"pr_func",
+		value:	"Hyödyllisiä tulostustoimintoja"
+	},{
+		id:		"pr_server",
+		value:	"Tulostimen käyttäminen tulostuspalvelinympäristössä"
+	},{
+		id:		"ans_1",
+		value:	"Kuinka v&auml;rikasetti vaihdetaan"
+	},{
+		id:		"ans_3",
+		value:	"Tulostusyksik&ouml;n merkkivalo palaa/vilkkuu."
+	},{
+		id:		"ans_4",
+		value:	"Haluan tiet&auml;&auml; kuinka kiinnitystela puhdistetaan."
+	},{
+		id:		"ans_5",
+		value:	"Ratkaisuja paperitukoksiin"
+	},{
+		id:		"ans_6",
+		value:	"Haluan tiet&auml;&auml; kuinka paperia lis&auml;t&auml;&auml;n."
+	},{
+		id:		"ans_7",
+		value:	"Ty&ouml;n peruminen"
+	},{
+		id:		"ans_8",
+		value:	"Ratkaisuja huonoihin tulosteisiin"
+	},{
+		id:		"trob",
+		value:	"Vianmääritys"
+	},{
+		id:		"setup_guide",
+		value:	"Tulostimen asennus"
+	},{
+		id:		"dri_inst",
+		value:	"Ajurin asennus"
+	}
+];
+var link = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		link_name:"home",
+		link_target:"_self",
+		link_href:"../frame_htmls/home.html"
+	},{
+		link_name:"contents",
+		link_target:"_self",
+		link_href:"../frame_htmls/contents.html"
+	},{
+		link_name:"help",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// MAIN
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"before",
+		link_target:"_self"
+	},{
+		link_name:"safety",
+		link_target:"_self"
+	},{
+		link_name:"about_pr",
+		link_target:"_self"
+	},{
+		link_name:"maint",
+		link_target:"_self"
+	},{
+		link_name:"pr_basic",
+		link_target:"_self"
+	},{
+		link_name:"pr_paper",
+		link_target:"_self"
+	},{
+		link_name:"pr_func",
+		link_target:"_self"
+	},{
+		link_name:"pr_server",
+		link_target:"_self"
+	},{
+		link_name:"ans_1",
+		link_target:"_self"
+	},{
+		link_name:"ans_3",
+		link_target:"_self"
+	},{
+		link_name:"ans_4",
+		link_target:"_self"
+	},{
+		link_name:"ans_5",
+		link_target:"_self"
+	},{
+		link_name:"ans_6",
+		link_target:"_self"
+	},{
+		link_name:"ans_7",
+		link_target:"_self"
+	},{
+		link_name:"ans_8",
+		link_target:"_self"
+	},{
+		link_name:"trob",
+		link_target:"_self"
+	},{
+		link_name:"setup_guide",
+		link_target:"_self"
+	},{
+		link_name:"dri_inst",
+		link_target:"_self"
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"disclaimer",
+		link_target:"canon_sub_window",
+		link_resource:"disclaimer",
+		link_href:""
+	},{
+		link_name:"copy_rights",
+		link_target:"canon_sub_window",
+		link_resource:"copy_rights",
+		link_href:""
+	},{
+		link_name:"trade_marks",
+		link_target:"canon_sub_window",
+		link_resource:"trade_marks",
+		link_href:""
+	},{
+		link_name:"third_party",
+		link_target:"canon_sub_window",
+		link_resource:"third_party",
+		link_href:""
+	},{
+		link_name:"contact",
+		link_target:"canon_sub_window",
+		link_resource:"contact",
+		link_href:""
+	}
+];
+var header = "home,|,contents,|,help,|,_SEARCH_";
+var footer = "disclaimer,|,copy_rights,|,trade_marks,|,third_party,|,contact,|,_PUBNO_";
+var constant = [
+	{
+		search_window_width:		300,
+		search_show_around:			50,
+		search_show_result_count:	10,
+		search_page_max_range:		5
+	}
+];
+var cover = [
+	{
+		cover_name:"before",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"safety",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"about_pr",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"maint",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"setup_guide",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"dri_inst",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"pr_basic",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"pr_paper",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"pr_func",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"pr_server",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"trob",
+		cover_title:"Luokan alku"
+	},{
+		cover_name:"oth",
+		cover_title:"Luokan alku"
+	}
+];

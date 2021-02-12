@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<link rel="stylesheet" type="text/css" href="../styles/frame_search.css" />
+		<title></title>
+		<script type="text/javascript" src="../jsons/resource.json"></script>
+		<script type="text/javascript" src="../jsons/search.json"></script>
+		<script type="text/javascript" src="../jsons/toc.json"></script>
+		<script type="text/javascript" src="../scripts/library.js"></script>
+		<script type="text/javascript" src="../scripts/search.js"></script>
+	</head>
+	<body scroll="no">
+		<div id="id_conditions">
+			<input type="text" id="id_search" accesskey="s" onkeydown="fncSearchKeyDown(event.keyCode, this.value);" value="" />
+			<button type="submit" id="id_search_button" accesskey="s"></button>
+			<span id="id_select_categories"></span>
+		</div>
+		<div id="id_categories_from">
+			<div><input type="radio" name="category_from" id="id_from_all" checked="checked" /><label for="id_from_all" id="id_from_all_label"></label></div>
+			<div><input type="radio" name="category_from" id="id_from_below" /><label for="id_from_below" id="id_from_below_label"></label></div>
+		</div>
+		<div id="id_categories"></div>
+		<div id="id_results">
+		</div>
+		<div id="id_status">
+			<span id="id_pages"></span>
+			<button class="close" accesskey="c" onclick="window.close();" id="id_close_button"></button>
+		</div>
+	</body>
+</html>
